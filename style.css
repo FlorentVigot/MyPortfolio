@@ -255,6 +255,9 @@ body{
     width: 400px;
     
   }
+  .presentation{
+    height: 60vh;
+  }
   .presentation-title h1{
     font-size: 25px;
   }
@@ -273,7 +276,14 @@ body{
     height: 155px;
     width: 259px;
     display: flex;
+    margin: auto;
     opacity: 1;
+  }
+  .projet{
+    height: 900px;
+  }
+  .contact{
+    height: 180px;
   }
 }
 /* Redmi phone */
