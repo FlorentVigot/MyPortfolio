@@ -235,7 +235,7 @@ body{
     text-align: center;
   }
   .presentation-contenu2 img{
-    margin:auto;
+    opacity: 1;
   }
 
   /* Projet */
@@ -269,8 +269,30 @@ body{
   .presentation-contenu2{
     order: 1;
   }
+  .presentation-contenu2 img{
+    height: 155px;
+    width: 259px;
+    display: flex;
+    opacity: 1;
+  }
 }
+/* Redmi phone */
+/* @media screen and (max-width:393px){
 
+  body{
+    width: 393px;
+    
+  }
+  .projet{
+    width: 100%;
+    height: 1000px;
+  }
+  .presentation-contenu2 img{
+    height: 155px;
+    width: 259px;
+    margin: auto;
+  } */
+  /* } */
 @media screen and (max-width: 376px){
 
   body{
