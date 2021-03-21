@@ -1,56 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <div class="ban">
-      <ul>
-        <li><a href="contact.html">Présentation</a></li>
-        <li><a href="contact.html">Mes projets</a></li>
-        <li><a href="contact.html">Me contacter</a></li>
-      </ul>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Florent Vigot - Mon Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Bonjour à tous, je suis Florent Vigot, jeune développeur, et je vous présente mon portfolio ! Vous y retrouverez mes projets, les langages que je maitrise, mes passsions...">
+  <link rel="icon" type="image/png" href="icon/florent-vigot.ico" />
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <section class="presentation">
+    <div class="presentation-title">
+      <h1>Florent Vigot | Web developer fullstack</h1>
     </div>
-    <!-- <div class="container">
-      <div class="item_img"></div>
-      <div class="item"></div>
-      <div class="item_img"></div>
-      <div class="item"></div>
-      <div class="item"></div>
-      <div class="item_img"></div>
-      <div class="item"></div>
-      <div class="item_img"></div>
-      <div class="item"></div>
-      <div class="item"></div>
-      <div class="item_img"></div>
-      <div class="item"></div>
-      <div class="item_img"></div>
-      <div class="item"></div>
-      <div class="item_img"></div>
-      <div class="item"></div>
-    </div> -->
-    <!--  -->
-    <div class="parallax"></div>
 
-    <!-- Boite blanc noir -->
-    <div id="box1"></div>
-    <div id="box2"></div>
-    <div id="box3"></div>
-    <div id="box4"></div>
-  </body>
+    <div class="presentation-contenu">
+      <div class="presentation-contenu1">
+        <p>
+          Je me présente, je suis <b>Florent Vigot</b>, étudiant en troisième année de
+          développement web à La Défense. Je suis passionnée par le monde du
+          digital, l'art et de la musique !
+        </p>
 
-  <h3>Présentation</h3>
-  <div class="presentation">
-    <img src="img/florent.png" alt="florent" />
-    <p>
-      Je me présnete, je suis Florent Vigot, étudiant en deuxième année de
-      développement web à La Défense. Je suis passionnée par le monde du
-      digital, l'art et la musique !
-    </p>
-  </div>
-  <h3>Mes projets</h3>
-  <h3>Contact</h3>
+      </div>
+      <div class="presentation-contenu2">
+        <img src="img/florent.png" alt="florent" />
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Projet -->
+  <section class="projet">
+    <div class="projet-title">
+      <h2>Mes projets</h2>
+    </div>
+    <div class="projet-contenue">
+      <!-- Card  -->
+      <div class="card">
+        <a href="https://florent-provigot.medium.com/attrapezlestools-7-extensions-vscode-1d3e7b27f95d">
+          <img src="img/medium.PNG" alt="Article médium"></a>
+        <div class="card__details">
+          <span class="tag">Article</span>
+          <span class="tag">VSCode</span>
+          <h3>Mon article</h3>
+          <p>1er article concernant les extensions sur Visual Studio Code. </p>
+        </div>
+      </div>
+      <!-- Second Card -->
+      <div class="card">
+        <a href="https://ctr-nuxt.herokuapp.com/">
+          <img src="img/ctr.PNG" alt="Lago di Braies"></a>
+        <div class="card__details">
+          <span class="tag">Jeu</span>
+          <span class="tag">Draft</span>
+          <h3>Crash Team Racing</h3>
+          <p>Un site web de draft. Le but est de choisir à tour de rôle une carte du jeu. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="contact">
+    <div class="contact-title">
+      <h2>Contact</h2>
+    </div>
+
+    <div class="contact-contenu">
+      <p>Vous pouvez me retrouver sur les réseaux sociaux !</p>
+      <div class="contact-icon">
+        <a href="https://github.com/FlorentVigot"><img src="icon/github.svg" alt="github" /></a>
+        <a href="https://twitter.com/FlorentVigot"><img src="icon/twitter.svg" alt="twitter" /></a>
+        <a href="https://www.linkedin.com/in/florent-vigot-63203a172/"><img src="icon/linkedin.svg"
+            alt="linkedin" /></a>
+      </div>
+    </div>
+
+  </section>
+
+</body>
+
 </html>
