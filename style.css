@@ -64,6 +64,7 @@ body {
   padding-bottom: 2%;
   font-size: 16px;
   height: auto;
+  
 }
 .projet-title h2{
   text-align: center;
@@ -78,7 +79,7 @@ body {
 }
 /* Card */
 .card {
-  width: 50%;
+  
   height: auto;
   margin: auto;
   border: 6px solid #F0E6C5;
@@ -151,9 +152,12 @@ body {
 }
 .contact p{
   text-align: center;
-  color:#0A53C2 ;
+  color:#F0E6C5;
   margin: 2%;
   font-size: 1rem;
+  font-style: italic;
+  text-shadow: 2px 2px 2px black;
+
 }
 /* Icon */
 .contact-icon{
@@ -190,9 +194,7 @@ body {
   .presentation-card{
     width: 225px;
   }
-  .presentation-card-title{
-    height:50px;
-  }
+  
   .presentation-card-title h1{
     text-align: center;
     font-size: 25px;
@@ -227,72 +229,26 @@ body {
     width: 400px;
     
   }
-  .presentation-card{
-    height: 60vh;
-  }
-  .presentation-title h1{
-    font-size: 25px;
-  }
-  .presentation-contenu1{
-    order: 2;
-    width: 100%;
-  }
-  .presentation-contenu1 p{
-    font-size: 20px;
-    
-  }
-  .presentation-contenu2{
-    order: 1;
-  }
-  .presentation-contenu2 img{
-    height: 155px;
-    width: 259px;
-    display: flex;
-    margin: auto;
-    opacity: 1;
-  }
+ 
+  
   .projet{
-    height: 900px;
+    height: auto;
+    width: 225px;
   }
+  
   .contact{
     height: 180px;
   }
 }
-/* Redmi phone */
-/* @media screen and (max-width:393px){
 
-  body{
-    width: 393px;
-    
-  }
-  .projet{
-    width: 100%;
-    height: 1000px;
-  }
-  .presentation-contenu2 img{
-    height: 155px;
-    width: 259px;
-    margin: auto;
-  } */
-  /* } */
-@media screen and (max-width: 376px){
+  /* ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
+  /* Mobile M  */
+@media screen and (max-width: 375px){
 
   body{
     width: 375px;
   }
-  /* Presentation */
-  .presentation{
-    height: 400px;
-  }
-  .presentation-contenu2{
-    width: 100%;
-    margin: auto;
-  }
-  .presentation-contenu2 img{
-    height: 155px;
-    width: 259px;
-    margin: auto;
-  }
+ 
   /* Projets */
 
   .projet-title h2{
@@ -300,6 +256,7 @@ body {
   }
   .projet{
     height: 620px;
+    width: 225px;
   }
   /* Card */
   .card {
