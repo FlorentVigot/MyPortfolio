@@ -225,10 +225,7 @@ body {
 
 @media screen and (max-width: 400px){
 
-  body{
-    width: 400px;
-    
-  }
+  
  
   
   .projet{
@@ -245,19 +242,17 @@ body {
   /* Mobile M  */
 @media screen and (max-width: 375px){
 
-  body{
-    width: 375px;
-  }
+  
  
   /* Projets */
 
-  .projet-title h2{
+  /* .projet-title h2{
     font-size: 1em;
   }
   .projet{
     height: 620px;
     width: 225px;
-  }
+  } */
   /* Card */
   .card {
     border: 3px solid #C2850A;
