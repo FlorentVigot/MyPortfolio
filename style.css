@@ -1,86 +1,77 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
-body{
-  background-color: #002F75;
+body {
+  padding: 4.5rem;
+  margin: auto;
+  background: #002F75;
+  background: linear-gradient(90deg, #002F75 0,#c4caef 70%);
+  font-family: 'Inter', sans-serif;
+  
 }
-@font-face{
-  font-family: "font";
-  src: url('fonts/SanvitoPro-Capt.otf');
-}
+
 /* Présentation */
 
-.presentation {
-  width: 100%;
-  height: 50vh;
-  background-color: #002F75;
+.presentation-card {
+  width: 550px;
+  height: auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, .7);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+  /* display: block; */
+  margin: auto;
 }
-.presentation-title{
-  animation: moveToLeft 5s linear infinite;
+.presentation-card-title {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-size: 1.2rem;
 }
-.presentation-title h1{
-  text-align: center;
-  font-size: 40px;
-  color: #fff;
-}
+.presentation-card-title h1{
 
-@keyframes moveToLeft {
-  0% {
-    transform: translateX(0px);
-  }
-  100% {
-transform: translateX(-1100px);
+  color:#c4caef;
+  text-shadow: 2px 2px 2px black;
 }
+.presentation-card-contenu-texte {
+  color: #002F75;
 }
-/* ::::::::::::::::::::::::::::::::::::::::: */
-/* Presentation Contenu */
-.presentation-contenu{
-  width: 100%;
-  display: flex;
-}
-
-.presentation-contenu1 p::first-letter{
+.presentation-card-contenu-texte p::first-letter{
   font-size: calc(60px + 0.75vw);
   line-height: 40px;
-  color: #C2850A;
+  color: #F0E6C5
 }
-.presentation-contenu1 p{
-  margin: 5%;
-  color: white;
-  font-family: 'font';
-  font-size: 25px;
+.presentation-card-contenu-image img {
+  height: 200px;
+  width: 200px;
+  border-radius:8rem ;
+  display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
 
-.presentation-contenu2 img {
-  transition-duration: 0.5s;
-  opacity: 0.5;
-  height: 310px;
-  width: 519px;
-}
-img:hover {
-  opacity: 1;
-  transition: all 0.5s ease-out;
-}
-.presentation p {
-  padding: 5px;
-  color: white;
-  font-family: 'font';
-}
+/* ::::::::::::::::::::::::::::::::::::::::: */
+
+
+
+
 /* .::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 /* Projet */
 .projet{
-  background-color: #eaeff1;
   padding-top: 2%;
   padding-bottom: 2%;
   font-size: 16px;
+  height: auto;
 }
 .projet-title h2{
   text-align: center;
   padding-bottom: 2%;
-  color:#FFB726;
+  color:#F0E6C5;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 2rem;
+  
 }
 .projet-contenue{
   padding-bottom: 2%;
@@ -88,8 +79,9 @@ img:hover {
 /* Card */
 .card {
   width: 50%;
+  height: auto;
   margin: auto;
-  border: 6px solid #C2850A;
+  border: 6px solid #F0E6C5;
   padding-bottom: 2%;
   margin-bottom: 15px;
   border-radius: 12px;
@@ -105,11 +97,11 @@ img:hover {
 }
 .card__details .tag {
   padding: 4px 8px;
-  border: 2px solid #C2850A;
+  border: 2px solid #F0E6C5;
   border-radius: 50px;
   font-size: 1rem;
   font-weight: 600;
-  color: #C2850A;
+  color: #F0E6C5;
 }
 .card__details .tag:hover{
   background-color: #0A53C2;
@@ -138,25 +130,18 @@ img:hover {
 }
 
 
-/* Transition  */
-.transition{
-  width: 50%;
-  height: 0.5em;
-  background-color:white;
-  margin: auto;
-}
-
 
 /* ............................................... */
 
 /* Contact */
 .contact{ 
   width: 100%;
+  margin-bottom: 10%;
   font-size: 16px;
 }
 .contact-title h2{
   text-align: center;
-  color: #FFB726;
+  color: #F0E6C5;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 2rem;
 }
@@ -166,25 +151,27 @@ img:hover {
 }
 .contact p{
   text-align: center;
-  color: #fff;
+  color:#0A53C2 ;
   margin: 2%;
   font-size: 1rem;
 }
 /* Icon */
 .contact-icon{
   display: flex;
-  justify-content: center;
+  justify-content: center; 
 }
-.contact img{
+.contact-icon img{
   height: 50px;
   width: 50px;
-  padding-left: 10%;
   transition-duration: 0.5s;
   opacity: 0.5;
+  padding: 10%;
+  
 }
 .contact img:hover {
   opacity: 1;
   transition: all 0.5s ease-out;
+  
 }
 
 
@@ -194,40 +181,28 @@ img:hover {
 /* Responsive laptop */
 @media screen and (max-width: 1024px){
 }
-.presentation{
-  height: 70vh;
-}
 
 
 /* Responsive tablette */
 @media screen and (max-width: 768px){
-body{
-  width: 768px;
-}
+
   /* Presentation */
-  .presentation{
-    height: 90vh;
+  .presentation-card{
+    width: 225px;
   }
-  .presentation-title{
+  .presentation-card-title{
     height:50px;
   }
-  .presentation-title h1{
+  .presentation-card-title h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 25px;
   }
-  .presentation-title{
-    animation: moveToLeft 3s linear infinite;
+  
+  
   }
-  @keyframes moveToLeft {
-    0% {
-      transform: translateX(0px);
-    }
-    100% {
-  transform: translateX(-600px);
-  }
-  }
-  .presentation-contenu{
+  .presentation-card-contenu-texte{
     display: inline-block;
+    padding-bottom:10%;
   }
   .presentation-contenu1 p{
     margin: 5%;
@@ -238,11 +213,8 @@ body{
     opacity: 1;
   }
 
-  /* Projet */
-  .projet{
-    height: 800px;
-  }
-}
+  
+
 
 /* Responsive mobile */
 
@@ -255,7 +227,7 @@ body{
     width: 400px;
     
   }
-  .presentation{
+  .presentation-card{
     height: 60vh;
   }
   .presentation-title h1{
