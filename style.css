@@ -74,7 +74,16 @@ body {
   font-size: 2rem;
   
 }
+.projet-title p{
+  text-align: center;
+  padding-bottom: 2%;
+  color:#F0E6C5;
+  font-size: 1rem;
+  font-style: italic;
+  text-shadow: 2px 2px 2px black;
+}
 .projet-contenue{
+  display: flex;
   padding-bottom: 2%;
 }
 /* Card */
@@ -130,8 +139,37 @@ body {
   font-weight: bold;
 }
 
+/* ............................................... */
+/* Skill */
+.skill{ 
+  width: 100%;
+  margin-bottom: 10%;
+  font-size: 16px;
+}
 
+.skill-title h2{
+  text-align: center;
+  color: #F0E6C5;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+}
+/* Contenu*/
+.skill-contenu{
+  display: block;
+}
+.skill p{
+  text-align: center;
+  color:#F0E6C5;
+  margin: 2%;
+  font-size: 1rem;
+  font-style: italic;
+  text-shadow: 2px 2px 2px black;
 
+}
+.skill-card{
+  display: flex;
+  justify-content: center;
+}
 /* ............................................... */
 
 /* Contact */
