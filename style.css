@@ -6,34 +6,44 @@
 body {
   padding: 4.5rem;
   margin: auto;
-  background: #002F75;
-  background: linear-gradient(90deg, #002F75 0,#c4caef 70%);
+  background:rgba(239, 125, 7);
   font-family: 'Inter', sans-serif;
   
+  
 }
+body p{
+  color: black;
+}
+
 
 /* Présentation */
 
 .presentation-card {
-  width: 550px;
+  width: auto;
   height: auto;
   padding: 2rem;
   border-radius: 1rem;
   background: rgba(255, 255, 255, .7);
 	-webkit-backdrop-filter: blur(10px);
 	backdrop-filter: blur(10px);
-  /* display: block; */
+  display: block;
   margin: auto;
 }
 .presentation-card-title {
   margin-top: 0;
   margin-bottom: .5rem;
   font-size: 1.2rem;
+  
 }
 .presentation-card-title h1{
-
-  color:#c4caef;
+  text-align: center;
+  color:white;
   text-shadow: 2px 2px 2px black;
+  
+}
+.presentation-card-contenu{
+display: flex;
+width: auto;
 }
 .presentation-card-contenu-texte {
   color: #002F75;
@@ -89,7 +99,8 @@ body {
 /* Card */
 .card {
   
-  height: auto;
+  height: 400px;
+  width: 50vw;
   margin: auto;
   border: 6px solid #F0E6C5;
   padding-bottom: 2%;
@@ -188,6 +199,10 @@ body {
 .contact-contenu{
   display: block;
 }
+.contact-contenu h3{
+  color: #F0E6C5;
+}
+
 .contact p{
   text-align: center;
   color:#F0E6C5;
@@ -197,10 +212,24 @@ body {
   text-shadow: 2px 2px 2px black;
 
 }
+.contact p a{
+  color:#F0E6C5;
+
+}
+.contact-github{
+  display: block;
+}
+.contact-github{
+  display: block;
+}.contact-linkedin{
+  width: auto;
+  display: block;
+}
 /* Icon */
 .contact-icon{
   display: flex;
   justify-content: center; 
+  justify-content: space-around;
 }
 .contact-icon img{
   height: 50px;
