@@ -15,7 +15,6 @@ body p{
   color: black;
 }
 
-
 /* Présentation */
 
 .presentation-card {
@@ -28,6 +27,7 @@ body p{
 	backdrop-filter: blur(10px);
   display: block;
   margin: auto;
+  scroll-behavior: smooth;
 }
 .presentation-card-title {
   margin-top: 0;
@@ -58,8 +58,8 @@ width: auto;
   width: 200px;
   border-radius:8rem ;
   display: block;
-    margin-left: auto;
-    margin-right: auto 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ::::::::::::::::::::::::::::::::::::::::: */
@@ -74,7 +74,7 @@ width: auto;
   padding-bottom: 2%;
   font-size: 16px;
   height: auto;
-  
+  scroll-behavior: smooth;
 }
 .projet-title h2{
   text-align: center;
@@ -100,12 +100,13 @@ width: auto;
 .card {
   
   height: 400px;
-  width: 50vw;
+  width: 300px;
   margin: auto;
   border: 6px solid #F0E6C5;
   padding-bottom: 2%;
   margin-bottom: 15px;
   border-radius: 12px;
+  box-shadow: 0 3px 10px;
 }
 .card img{
   border-radius: 12px;
@@ -227,22 +228,27 @@ width: auto;
 }
 /* Icon */
 .contact-icon{
-  display: flex;
+  /* display: flex;
   justify-content: center; 
-  justify-content: space-around;
+  justify-content: space-around; */
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 2%;
+  bottom: 20%;
 }
 .contact-icon img{
-  height: 50px;
-  width: 50px;
-  transition-duration: 0.5s;
-  opacity: 0.5;
-  padding: 10%;
+  width: 40px;
+  height: 2rem;
   
 }
 .contact img:hover {
   opacity: 1;
   transition: all 0.5s ease-out;
   
+}
+.contact-github, .contact-linkedin, .contact-twitter{
+  padding-bottom: 20%;
 }
 
 
