@@ -189,7 +189,6 @@ width: auto;
 
 .skill-title h2{
   text-align: center;
-  color: #F0E6C5;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 2rem;
 }
@@ -212,35 +211,8 @@ width: auto;
 }
 /* ............................................... */
 
-/* Contact */
-.contact{ 
-  width: 100%;
-  margin-bottom: 10%;
-  font-size: 16px;
-}
-.contact-title h2{
-  text-align: center;
-  color: #F0E6C5;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 2rem;
-}
-/* Contact Contenu*/
-.contact-contenu{
-  display: block;
-}
-.contact p{
-  text-align: center;
-  color:#F0E6C5;
-  margin: 2%;
-  font-size: 1rem;
-  font-style: italic;
-  text-shadow: 2px 2px 2px black;
 
-}
-.contact p a{
-  color:#F0E6C5;
 
-}
 
 /* Icon */
 .contact-icon{
@@ -253,7 +225,7 @@ width: auto;
 .contact-icon img{
   width: 40px;
   height: 2rem;
-margin: auto;  
+  margin: auto;  
 }
 
 /* github + linkedIn + twitter */
