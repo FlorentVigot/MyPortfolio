@@ -194,20 +194,24 @@ width: auto;
 }
 /* Contenu*/
 .skill-contenu{
-  display: block;
+  display: flex;
 }
 .skill p{
   text-align: center;
   color:#F0E6C5;
-  margin: 2%;
+  margin-left: 2%;
   font-size: 1rem;
   font-style: italic;
   text-shadow: 2px 2px 2px black;
 
 }
 .skill-card{
-  display: flex;
-  justify-content: center;
+  margin-left: auto;
+}
+
+.skill-contenu img{
+  flex-direction: column;
+  
 }
 /* ............................................... */
 
