@@ -18,6 +18,10 @@
   <link rel="stylesheet" href="css/style.scss">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
 
 </head>
 
@@ -25,8 +29,10 @@
   <!-- Presentation section -->
   <section class="presentation-card">
     <div class="presentation-card-title">
-      <h1>Florent Vigot</h1>
-      <h2>Web developer fullstack</h2>
+      <div class="animate__animated animate__bounce animate__delay-1s">
+        <h1 >Florent Vigot</h1>
+      </div>     
+      <h2 >Web developer fullstack</h2>
     </div>
 
     <div class="presentation-card-contenu">
@@ -40,12 +46,18 @@
       <div class="presentation-card-contenu-image">
         <img src="img/florent.jpg" alt="florent" />
       </div>
-      <h3>Le Piano</h3>
-      <img src="" alt="icon musique">
-      <h3>Le Café</h3>
-      <img src="" alt="icon café">
+    </div>
+    <div class="presentation-card-passion">
+      <div class="presentation-card-passion-group">
+      <img src="icon/music.svg" alt="icon musique">
+      <h3>Le Piano</h3></div>
+      <div class="presentation-card-passion-group">
+      <img src="icon/cofe.svg" alt="icon café">
+      <h3>Le Café</h3></div>
+      <div class="presentation-card-passion-group">
+      <img src="icon/plane.svg" alt="icon voyage">
       <h3>Le Voyage</h3>
-      <img src="" alt="icon voyage">
+      </div>
     </div>
   </section>
 
@@ -58,24 +70,26 @@
       <p> N'hésitez pas à jeter un coup d'oeil à mes projets !</p>
     </div>
     <span class="vertical"></span>
-    <div class="projet-title-section">
+      <div class="projet-title-section">
+        <div class="animate__animated animate__fadeInLeft">
       
-      <h3>Mes articles</h3>
-      <p>Retrouvez mes articles sur Medium</p>
-      <div class="projet-contenue">
-      <!-- Article One Card  -->
-        <div class="card">
-          <a href="https://florent-provigot.medium.com/attrapezlestools-7-extensions-vscode-1d3e7b27f95d">
-            <img src="img/medium.PNG" alt="Article medium"></a>
-          <div class="card__details">
-            <span class="Medium">Medium</span>
-            <span class="tag">VSCode</span>
-            <h3>7 extensions VScode</h3>
-            <p>1er article concernant les extensions sur Visual Studio Code. L'article est écrit en anglais et à pour
-              but
-              de faire découvrir sept extensions qui peuvents nous aider àmieux coder !</p>
+          <h3>Mes articles</h3>
+          <p>Retrouvez mes articles sur Medium</p>
+          <div class="projet-contenue">
+        <!-- Article One Card  -->
+          <div class="card">
+            <a href="https://florent-provigot.medium.com/attrapezlestools-7-extensions-vscode-1d3e7b27f95d">
+              <img src="img/medium.PNG" alt="Article medium"></a>
+            <div class="card__details">
+              <span class="Medium">Medium</span>
+              <span class="tag">VSCode</span>
+              <h3>7 extensions VScode</h3>
+              <p>1er article concernant les extensions sur Visual Studio Code. L'article est écrit en anglais et à pour
+                but
+                de faire découvrir sept extensions qui peuvents nous aider àmieux coder !</p>
+            </div>
           </div>
-        </div>
+      
       <!-- Article Second Card -->
         <div class="card">
           <a href="https://florent-provigot.medium.com/attrapezlestools-best-4-software-of-microsoft-304717ddd450">
@@ -88,8 +102,10 @@
           </div>
         </div>
       </div>
+    </div>
+    </div>
 
-      </div>
+    <!-- Projet Pro -->
       <div class="projet-title-section">
         <h3>Mes projets profesionnels</h3>
         <p>Mes 2 projets profesionnels</p>
@@ -190,6 +206,7 @@
     </div>
 
   </section>  
+  <div class="animate__animated animate__bounce animate__delay-2s">Example</div>
 </body>
 
 </html>
