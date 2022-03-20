@@ -14,199 +14,236 @@
   <meta property="og:url" content="https://florent.vigot.netlify.app" />
 
   <link rel="icon" type="image/png" href="img/logo-black.png" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="css/style.scss">
+  
+  <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 />
+<link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 
 </head>
 
 <body>
-  <!-- Presentation section -->
-  <section class="presentation-card">
-    <div class="presentation-card-title">
-      <div class="animate__animated animate__bounce animate__delay-1s">
-        <h1 >Florent Vigot</h1>
-      </div>     
-      <h2 >Web developer fullstack</h2>
-    </div>
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+<!-- 1 slide -->
+      <div class="swiper-slide">
 
-    <div class="presentation-card-contenu">
-      <div class="presentation-card-contenu-texte">
-        <p>
-          Je me présente <span class="Florent Vigot"><b>Florent Vigot</b></span>, étudiant en développement web à l'Institue de l'Internet et du Multimédia (IIM) à La Défense. Je suis en 4ème annèe en Master <b><i>Ingénierie Web et Mobile</i></b>.
-          Je suis passionné par le monde du numérique ,du sport et de la musique !
-        </p>
+        <!-- Presentation section --> 
+        <section class="presentation-card">
+          <div class="presentation-card-title">
+            <div class="animate__animated animate__bounce animate__delay-1s">
+              <h1 >Florent Vigot</h1>
+            </div>     
+            <h2 class="animate__animated animate__pulse" >Web developer fullstack</h2>
+          </div>
+
 
       </div>
-      <div class="presentation-card-contenu-image">
-        <img src="img/florent.jpg" alt="florent" />
+<!-- 2 slide -->
+      <div class="swiper-slide">
+
+        <!-- Presentation Contenu -->
+        <div class="presentation-card-contenu">
+          <div class="presentation-card-contenu-texte">
+            <p>
+              Je me présente <span class="Florent Vigot"><b>Florent Vigot</b></span>, étudiant en développement web à l'Institue de l'Internet et du Multimédia (IIM) à La Défense. Je suis en 4ème annèe en Master <b><i>Ingénierie Web et Mobile</i></b>.
+              Je suis passionné par le monde du numérique ,du sport et de la musique !
+            </p>
+    
+          </div>
+          <div class="presentation-card-contenu-image">
+            <img src="img/florent.jpg" alt="florent" />
+          </div>
+        </div>
+
       </div>
-    </div>
-    <div class="presentation-card-passion">
-      <div class="presentation-card-passion-group">
-      <img src="icon/music.svg" alt="icon musique">
-      <h3>Le Piano</h3></div>
-      <div class="presentation-card-passion-group">
-      <img src="icon/cofe.svg" alt="icon café">
-      <h3>Le Café</h3></div>
-      <div class="presentation-card-passion-group">
-      <img src="icon/plane.svg" alt="icon voyage">
-      <h3>Le Voyage</h3>
+<!-- 3 slide -->
+      <div class="swiper-slide">
+        <!-- Projet --> 
+        <section class="projet">
+          <div class="projet-title">
+            <h2>Mes Projets</h2>
+            <p> N'hésitez pas à jeter un coup d'oeil à mes projets !</p>
+          </div>
       </div>
-    </div>
-  </section>
+<!-- 4 slide -->
+      <div class="swiper-slide">
+        <!-- Article Section -->
+        
+          <div class="projet-title-section">
+            <div class="animate__animated animate__fadeInLeft">
+              <h3>Mes articles</h3>
+              <p>Retrouvez mes articles sur Medium</p>
+              <div class="projet-contenue">
+            <!-- Article First Card  -->
+              <div class="card">
+                <a href="https://florent-provigot.medium.com/attrapezlestools-7-extensions-vscode-1d3e7b27f95d">
+                  <img src="img/medium.PNG" alt="Article medium"></a>
+                <div class="card__details">
+                  <span class="tag">Medium</span>
+                  <span class="tag">VSCode</span>
+                  <h3>7 extensions VScode</h3>
+                  <p>1er article concernant les extensions sur Visual Studio Code. L'article est écrit en anglais et à pour
+                    but
+                    de faire découvrir sept extensions qui peuvents nous aider àmieux coder !</p>
+                </div>
+              </div>
+            <!-- Article Second Card -->
+              <div class="card">
+                <a href="https://florent-provigot.medium.com/attrapezlestools-best-4-software-of-microsoft-304717ddd450">
+                  <img src="img/microsoft.PNG" alt="4 Best Software of Microsoft"></a>
+                <div class="card__details">
+                  <span class="tag">Logiciel</span>
+                  <span class="tag">Microsoft</span>
+                  <h3>4 Best Software of Microsoft</h3>
+                  <p>2ème article sur le thème des meilleurs logiciels Microsoft.  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-
-
-  <!-- Projet -->
-  <section class="projet">
-    <div class="projet-title">
-      <h2>Mes projets</h2>
-      <p> N'hésitez pas à jeter un coup d'oeil à mes projets !</p>
-    </div>
-    <span class="vertical"></span>
-      <div class="projet-title-section">
+      </div>
+<!-- 5 slide -->
+      <div class="swiper-slide">
         <div class="animate__animated animate__fadeInLeft">
-      
-          <h3>Mes articles</h3>
-          <p>Retrouvez mes articles sur Medium</p>
-          <div class="projet-contenue">
-        <!-- Article One Card  -->
+        <!-- Projet Pro Section-->
+        <div class="projet-title-section">
+          <h3>Mes projets profesionnels</h3>
+          <p>Mes 2 projets profesionnels</p>
+        </div>
+        <div class="projet-contenue">
+        <!-- Projet Pro One Card  -->
+          <div class="card">
+            <a href="https://smartmap.talloires-lac-annecy.com/fr">
+              <img src="img/resalocal.PNG" alt="resalocal"></a>
+            <div class="card__details">
+              <span class="tag">Lac d'Annecy</span>
+              <span class="tag">Carte interractive </span>
+              <h3>Resalocal</h3>
+              <p>Mise en place d'une carte interractive pour la région de talloires-lac-annecy. On y retrouve des activités, des restaurants, des promenades etc...  </p>
+            </div>
+          </div> 
+        <!-- Projet Pro Second Card -->
+            <div class="card">
+            <a href="https://vert-jaune.com/">
+              <img src="img/vert&jaune.PNG" alt="Vert & Jaune "></a>
+            <div class="card__details">
+              <span class="tag">Bien-être</span>
+              <h3>Vert & Jaune</h3>
+              <p>Boutique de bien être. Réalisation d'un site en Wordpress </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+<!-- 6 slide -->
+      <div class="swiper-slide">
+        <div class="animate__animated animate__fadeInLeft">
+        <!-- Project Perso Section -->
+        <div class="projet-title-section">
+          <h3>Mes projets perso</h3>
+          <p>Retrouvez mes projets perso</p>
+        </div>
+        <div class="projet-contenue">
+        <!-- Projet Perso First Card  -->
           <div class="card">
             <a href="https://florent-provigot.medium.com/attrapezlestools-7-extensions-vscode-1d3e7b27f95d">
               <img src="img/medium.PNG" alt="Article medium"></a>
             <div class="card__details">
-              <span class="Medium">Medium</span>
-              <span class="tag">VSCode</span>
-              <h3>7 extensions VScode</h3>
+              <span class="tag">React jS</span>
+              <h3>Site </h3>
               <p>1er article concernant les extensions sur Visual Studio Code. L'article est écrit en anglais et à pour
                 but
                 de faire découvrir sept extensions qui peuvents nous aider àmieux coder !</p>
             </div>
           </div>
-      
-      <!-- Article Second Card -->
-        <div class="card">
-          <a href="https://florent-provigot.medium.com/attrapezlestools-best-4-software-of-microsoft-304717ddd450">
-            <img src="img/microsoft.PNG" alt="4 Best Software of Microsoft"></a>
-          <div class="card__details">
-            <span class="tag">Logiciel</span>
-            <span class="tag">Microsoft</span>
-            <h3>4 Best Software of Microsoft</h3>
-            <p>2ème article sur le thème des meilleurs logiciels Microsoft.  </p>
+        <!-- Projet Perso Second Card -->
+            <div class="card">
+            <a href="https://ctr-nuxt.herokuapp.com/">
+              <img src="img/ctr.PNG" alt="Crash team racing "></a>
+            <div class="card__details">
+              <span class="tag">NuxtJS</span>
+              <span class="tag">Javascript</span>
+              <h3>Crash Team Racing</h3>
+              <p>Un site web draft. Le but est de choisir à tour de rôle une carte du jeu. </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    </div>
+      </section>
 
-    <!-- Projet Pro -->
-      <div class="projet-title-section">
-        <h3>Mes projets profesionnels</h3>
-        <p>Mes 2 projets profesionnels</p>
-    </div>
-    <div class="projet-contenue">
-      <!-- Projet Pro One Card  -->
-        <div class="card">
-          <a href="https://smartmap.talloires-lac-annecy.com/fr">
-            <img src="img/resalocal.PNG" alt="resalocal"></a>
-          <div class="card__details">
-            <span class="tag">Lac d'Annecy</span>
-            <span class="tag">Carte interractive </span>
-            <h3>Resalocal</h3>
-            <p>Mise en place d'une carte interractive pour la région de talloires-lac-annecy. On y retrouve des activités, des restaurants, des promenades etc...  </p>
-          </div>
-        </div>
-      <!-- Projet Pro Second Card -->
-        <div class="card">
-          <a href="https://vert-jaune.com/">
-            <img src="img/vert&jaune.PNG" alt="Vert & Jaune "></a>
-          <div class="card__details">
-            <span class="tag">Bien-être</span>
-            <h3>Vert & Jaune</h3>
-            <p>Boutique de bien être. Réalisation d'un site en Wordpress </p>
-          </div>
-        </div>
+
       </div>
-    
+<!-- 7 slide -->
+      <div class="swiper-slide">
+
+        <div class="skill-title">
+          <h2>Compétences</h2>
+        </div>
+        <img src="" alt="html"><img src="" alt="css"><img src="" alt="vuejs"><img src="" alt="laravel"><img src="" alt="wordpress"><img src="" alt="flutter"><img src="" alt="docker"><img src="" alt="python">
+      </div>
+<!-- 8 slide -->
+      <div class="swiper-slide">
+        <!-- Contact Icon -->
+        <section class="contact">
+          <div class="contact-contenu">  
+          <!-- Contact Icon -->
+            <div class="contact-icon">
+              <div class="contact-github">
+              <a href="https://github.com/FlorentVigot"><img src="icon/github.svg" alt="github" /></a>
+              
+              </div>
+              <div class="contact-twitter">
+                
+                <a href="https://twitter.com/FlorentVigot"><img src="icon/twitter.svg" alt="twitter" /></a>
+              </div>
+              <div class="contact-linkedin"> 
+                <!-- <h3>LinkedIn</h3> -->
+              <a href="https://www.linkedin.com/in/florent-vigot-63203a172/"><img src="icon/linkedin.svg"
+                alt="linkedin" /></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <img src="img/logo-black.png" alt="logo-black">
+          <a href="cv.html">CV</a>
+        </footer> 
+</div>
     </div>
-    <div class="projet-title-section">
-      <h3>Mes projets perso</h3>
-      <p>Retrouvez mes projets perso</p>
+    <div class="swiper-pagination"></div>
   </div>
-  <div class="projet-contenue">
-    <!-- Projet Perso One Card  -->
-      <div class="card">
-        <a href="https://florent-provigot.medium.com/attrapezlestools-7-extensions-vscode-1d3e7b27f95d">
-          <img src="img/medium.PNG" alt="Article medium"></a>
-        <div class="card__details">
-          <span class="tag">React jS</span>
-          <h3>Site </h3>
-          <p>1er article concernant les extensions sur Visual Studio Code. L'article est écrit en anglais et à pour
-            but
-            de faire découvrir sept extensions qui peuvents nous aider àmieux coder !</p>
-        </div>
-      </div>
-    <!-- Projet Perso Second Card -->
-      <div class="card">
-        <a href="https://ctr-nuxt.herokuapp.com/">
-          <img src="img/ctr.PNG" alt="Crash team racing "></a>
-        <div class="card__details">
-          <span class="tag">NuxtJS</span>
-          <span class="tag">Javascript</span>
-          <h3>Crash Team Racing</h3>
-          <p>Un site web draft. Le but est de choisir à tour de rôle une carte du jeu. </p>
-        </div>
-      </div>
-    </div>
-      
-  </section>
+  
 
-  <!-- Skill Section -->
-  <section class="skill">
-    <div class="skill-title">
-      <h2>Compétences</h2>
-    </div>
-    <div class="skill-contenu">
-      <div class="skill-card">
-        <a href="https://app.daily.dev/flo"><img src="https://api.daily.dev/devcards/da168634dcfc47d4985a911e89199a53.png?r=4f7" width="400" alt="flo's Dev Card"/></a>
-      </div>
-      <p>Je fais de la veille technologique. Voici ma carte généré par le site Daily.dev</p>
-      <img src="img/logo-black.png" alt="logo-black">
-    </div>
 
-  </section>
-  <section class="contact">
-    <div class="contact-contenu">
-      
-      <!-- Contact Icon -->
-      <div class="contact-icon">
-        <div class="contact-github">
-        <a href="https://github.com/FlorentVigot"><img src="icon/github.svg" alt="github" /></a>
-        
-        </div>
-        <div class="contact-twitter">
-          <!-- <h3>Twitter</h3> -->
-          <a href="https://twitter.com/FlorentVigot"><img src="icon/twitter.svg" alt="twitter" /></a>
-      
-        </div>
-        <div class="contact-linkedin">
-          <!-- <h3>LinkedIn</h3> -->
-          <a href="https://www.linkedin.com/in/florent-vigot-63203a172/"><img src="icon/linkedin.svg"
-              alt="linkedin" /></a>
-            
-        </div>
-      </div>
 
-    </div>
+ 
+ 
 
-  </section>  
-  <div class="animate__animated animate__bounce animate__delay-2s">Example</div>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        direction: "vertical",
+        slidesPerView: 1,
+        spaceBetween: 30,
+        mousewheel: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
 </body>
 
 </html>
