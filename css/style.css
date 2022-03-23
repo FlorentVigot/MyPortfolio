@@ -214,7 +214,23 @@ body p{
   font-style: italic;
 }
 
+/* Competence */
 
+.skill-title h2{
+  
+  color:black;
+  font-size: 3rem;
+}
+.skill-images{
+  display: flex;
+  flex-direction: row;
+  
+}
+.skill img{
+  height: 50px;
+  width: 50px;
+  flex-grow: 4;
+}
 
 
 /* Icon */
@@ -299,7 +315,6 @@ footer img{
 @media screen and (max-width: 400px){
 
   
- 
   
   .projet{
     height: auto;
@@ -365,4 +380,5 @@ footer img{
     width: 25px;
     padding-left: 10%;
   }
+}
 }
