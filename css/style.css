@@ -223,13 +223,17 @@ body p{
 }
 .skill-images{
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
   
 }
 .skill img{
-  height: 50px;
-  width: 50px;
-  flex-grow: 4;
+  height: 70px;
+  width: 70px;
+  /* display: flex; */
+  
+
 }
 
 
@@ -256,18 +260,50 @@ body p{
   transform: scale(1.5);
 }
 
+/* BTN comeback */
+.comeback {
+  height: 5%;
+  width: 100%;
+  display: flex;
+  padding-top: 1%;
+}
 
+button {
+  background-color: #9164ff;
+  border: 0px;
+  margin: auto;
+  padding: 1%;
+  border-radius: 8px;
+  border: 4px solid white;
+  justify-content: center;
+  width: 150px;
+  height: 50px;
+}
+
+.comeback img {
+  height: 15px;
+  width: 15px;
+}
+
+.comeback a {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
 
 /* Footer */
 
 footer{
-  display: flex;
-  background: rgba(255, 255, 255, .7);
-  height: 250px;
+  display: block;
+  background: green;
+  
+  width: 100%;
   
 }
-footer img{
+.logo img{
   margin: auto;
+  width: 250px;
+  height: 250px;
 }
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
