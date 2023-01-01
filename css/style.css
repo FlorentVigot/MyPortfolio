@@ -220,19 +220,24 @@ body p{
   
   color:black;
   font-size: 3rem;
+  margin-bottom: 20px;
+
 }
 .skill-images{
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   flex-wrap: wrap;
-  width: 100%;
+  gap:50px;
   
 }
-.skill img{
+.skill-images img{
   height: 70px;
   width: 70px;
-  /* display: flex; */
-  
+
+}
+.skill-images img{
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
 
 }
 
@@ -295,15 +300,16 @@ button {
 
 footer{
   display: block;
-  background: green;
-  
+  background-color:#0A53C2;
+  height: 70vh;
   width: 100%;
   
 }
 .logo img{
   margin: auto;
-  width: 250px;
-  height: 250px;
+  padding-top: 10%;
+  width: 100px;
+  height: 100px;
 }
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
