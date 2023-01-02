@@ -274,7 +274,7 @@ body p{
 }
 
 button {
-  background-color: #9164ff;
+  background-color: white;
   border: 0px;
   margin: auto;
   padding: 1%;
@@ -283,6 +283,7 @@ button {
   justify-content: center;
   width: 150px;
   height: 50px;
+  
 }
 
 .comeback img {
