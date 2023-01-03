@@ -23,7 +23,7 @@ body {
 }
 
 button {
-  background-color: #9164ff;
+  background-color: #0A53C2;
   border: 0px;
   margin: auto;
   padding: 1%;
@@ -65,10 +65,23 @@ button {
 .timeline ul li div {
   position: relative;
   bottom: 0;
+  height: 150px;
   width: 400px;
   padding: 20px;
-  background: #fff;
-  box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.2);
+  background: #0A53C2;
+  box-shadow: 4px 13px 30px 1px rgba(246, 244, 244, 0.2);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.timeline ul li div .discovery_2{
+  position: relative;
+  bottom: 0;
+  height: 120px;
+  width: 400px;
+  padding: 20px;
+  background: #0A53C2;
+  box-shadow: 4px 13px 30px 1px rgba(246, 244, 244, 0.2);
   border-radius: 5px;
   display: flex;
   align-items: center;
