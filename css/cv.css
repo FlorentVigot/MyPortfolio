@@ -8,7 +8,7 @@
 
 body {
   font: normal 16px/1.5 "Titillium Web", sans-serif;
-  background: #F0E6C5;
+  background: linear-gradient(rgb(35, 81, 117), rgb(82, 99, 139), rgb(122, 118, 162), rgb(161, 136, 186), rgb(200, 155, 210));
   color: #F0E6C5;
   overflow-x: hidden;
   padding-bottom: 50px;
