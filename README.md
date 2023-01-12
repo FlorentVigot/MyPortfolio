@@ -3,4 +3,6 @@
    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /></p>
    <br>
 Voici mon portfolio. Vous y retrouverz une présentation de qui je suis, mes projets ainsi que mes compétences tecniques !
+<br>
+Découvrez mon CV !
 
