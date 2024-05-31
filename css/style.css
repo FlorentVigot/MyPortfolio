@@ -136,6 +136,9 @@ nav ul li a:hover {
   justify-content: center;
   align-items:center;
 }
+.presentation-card-contenu-texte span {
+  color:#0A53C2
+}
 
 .presentation-card-contenu-texte p::first-letter{
   font-size: calc(60px + 0.75vw);
@@ -160,15 +163,22 @@ nav ul li a:hover {
 
 /* .::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 /* Projet */
-
+.projet-title{
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 .projet-title h2{
-  text-align: center;
+  
   padding-bottom: 2%;
   color:black;
   font-size: 3rem;
 }
 .projet-title p{
-  text-align: center;
+  
   color:#F0E6C5;
   font-size: 1rem;
 }
